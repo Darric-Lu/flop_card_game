@@ -95,7 +95,7 @@ const model = {
   isRevealedCardsMatched() {//比對是否數字相同
     return this.revealedCards[0].dataset.index % 13 === this.revealedCards[1].dataset.index % 13
   },
-  score: 250,//起始分數
+  score: 0,//起始分數
   triedTimes: 0,//起始次數
 }
 //狀態控制模組
